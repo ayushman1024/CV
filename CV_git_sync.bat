@@ -6,5 +6,5 @@ git add .
 git commit -m "Automatic commit"
 git push
 
-@echo Executed\n >> log.txt
+@echo Executed date /t >> log.txt
 pause
