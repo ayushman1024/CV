@@ -1,3 +1,4 @@
+SETCONSOLE /hide
 @echo Started execution: %date% %time% >> log.txt
 git checkout master
 git fetch origin
