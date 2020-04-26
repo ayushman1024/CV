@@ -1,1 +1,0 @@
-start /wait CV_git_sync.bat
