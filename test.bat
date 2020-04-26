@@ -1,1 +1,1 @@
-start /b CV_git_sync.bat
+start /wait CV_git_sync.bat
