@@ -1,2 +1,2 @@
 @echo off
-START /B CV_git_sync.bat
+START /B /WAIT CV_git_sync.bat
