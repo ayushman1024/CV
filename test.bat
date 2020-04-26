@@ -1,4 +1,1 @@
-@echo off
-RunHiddenConsole CV_git_sync.bat
-
-pause
+START /B CV_git_sync.bat
