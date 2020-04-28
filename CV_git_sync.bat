@@ -1,4 +1,3 @@
-color 3
 @echo Started execution: %date% %time% >> tasklog.txt
 git checkout master
 git fetch origin
