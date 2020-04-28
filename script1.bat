@@ -1,4 +1,3 @@
-color 5
 @echo Started execution: %date% %time% >> tasklog.txt
 git checkout master
 git fetch origin
@@ -10,3 +9,4 @@ git push
 
 @echo Completed %date% %time% >> tasklog.txt
 @echo ___________________________________ >> tasklog.txt
+exit
