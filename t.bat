@@ -1,0 +1,1 @@
+start /min CV_git_sync.bat
