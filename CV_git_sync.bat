@@ -1,4 +1,4 @@
-@echo Started execution: %date% %time% >> log.txt
+@echo Started execution: %date% %time% >> tasklog.txt
 git checkout master
 git fetch origin
 git merge origin/master
