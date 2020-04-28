@@ -9,3 +9,4 @@ git push
 
 @echo Completed %date% %time% >> tasklog.txt
 @echo ___________________________________ >> tasklog.txt
+exit
