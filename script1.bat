@@ -1,4 +1,7 @@
 @echo Started execution: %date% %time% >> tasklog.txt
+
+SET prebranch = git branch
+
 git checkout master
 git fetch origin
 git merge origin/master
@@ -7,6 +10,7 @@ git add .
 git commit -m "Automatic commit"
 git push
 
-@echo Completed %date% %time% >> tasklog.txt
+git checkout %prebranch
+@echo Completed at %date% %time% >> tasklog.txt
 @echo ___________________________________ >> tasklog.txt
 exit
