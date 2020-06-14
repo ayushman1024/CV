@@ -1,7 +1,7 @@
 @echo Started execution: %date% %time% >> tasklog.txt
 
 SET prebranch = git branch
-
+rm -f .git/index.lock
 git checkout master
 git fetch origin
 git merge origin/master

@@ -1,1 +1,1 @@
-start /min script1.bat
+start /min sync_script.bat
