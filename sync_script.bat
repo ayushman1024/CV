@@ -11,6 +11,9 @@ git commit -m "Automatic commit"
 git push
 
 git checkout %prebranch
+
+start /min B:\GDRIVE\CODE\ayushman1024.github.io\sync_script.bat
+
 @echo Completed at %date% %time% >> tasklog.txt
 @echo ___________________________________ >> tasklog.txt
 exit
