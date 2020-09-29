@@ -15,5 +15,4 @@ git checkout %prebranch >> tasklog.txt
 
 @echo ## Completed at %date% %time% >> tasklog.txt
 @echo ___________________________________ >> tasklog.txt
-start /min B:\GDRIVE\CODE\ayushman1024.github.io\sync_script.bat
 exit
